@@ -43,7 +43,7 @@ module.exports = React.createClass({
               <Link to="/" className="_nav-item -nav3 active">And Another Nav</Link>
             </li>
             <li className="contact">
-              <Link to="contact" className="_nav-item -contact active">Contact</Link>
+              <Link to="/contact" className="_nav-item -contact active">Contact</Link>
             </li>
           </ul>
   	    </div>

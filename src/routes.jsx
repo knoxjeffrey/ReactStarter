@@ -12,7 +12,7 @@ module.exports = (
   <Router history={new History}>
     <Route component={Main} >
       <Route path="/" component={Home} />
-      <Route path="contact" component={Contact} />
+      <Route path="/contact" component={Contact} />
     </Route>
   </Router>
 );
